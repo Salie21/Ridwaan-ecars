@@ -109,6 +109,7 @@ nav a{
     display: flex;
     flex-direction: column;
     gap: 32px;
+    padding: 0 24px;
 }
 
 .charging-map__row{
@@ -410,12 +411,12 @@ nav a{
     display: flex;
     align-items: center;
     gap: 8px;
-    padding: 10px 16px;
+    padding: 0 16px;
     background: #f7f7f7;
     border: 1px solid #e0e0e0;
-    border-radius: 6px;
+    border-radius: 4px;
     box-shadow: 0 1px 2px rgba(0, 0, 0, 0.08);
-    height: auto;
+    height: 40px;
     min-width: 0;
 }
 
@@ -425,6 +426,15 @@ nav a{
     white-space: nowrap;
 }
 
+.sticky-bar__btn--question{
+    width: 540px;
+    height: 40px;
+    display: block;
+    box-sizing: border-box;
+    text-align: center;
+    padding: 0 16px;
+}
+
 .sticky-bar__btn--question span{
     font-weight: 500;
     height: 20px;
@@ -432,15 +442,15 @@ nav a{
     color: rgb(57, 60, 65);
     color-scheme: light;
     cursor: pointer;
-    display: inline;
-    width: auto;
+    display: inline-block;
+    font-size: 14px;
 }
 
 .sticky-bar__btn--drive{
     background: #fff;
     min-width: 260px;
-    margin-left: auto;
     text-decoration: none;
+    align-items: center;
 }
 
 .sticky-bar__btn--drive span{
@@ -455,9 +465,11 @@ nav a{
 }
 
 .sticky-bar__btn--drive img{
-    width: 18px;
-    height: 18px;
+    width: 24px;
+    height: 24px;
     display: inline-block;
+    text-align: center;
+    filter: invert(39%) sepia(82%) saturate(1317%) hue-rotate(206deg) brightness(93%) contrast(96%);
 }
 
 main{
@@ -910,121 +922,4 @@ section-1 h2{
     
 }
 
-.tesla button{
-    width: 160px;
-    height: 40px;
-    padding: 4px;
-    box-sizing: border-box;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-family: "Universal Sans Text", -apple-system, Arial, sans-serif;
-    font-size: 14px;
-    font-weight: 500;
-    cursor: pointer;
-    appearance: button;
-    border-bottom: 2.4px solid rgba(0, 0, 0, 0);
-    border-bottom-left-radius: 4px;
-    border-bottom-right-radius: 4px;
-    backdrop-filter: none;
-}
-
-.card-image-container{
-    display: flex;
-    gap: 24px;
-    align-items: stretch;
-    flex-wrap: wrap;
-    margin: 48px auto 0;
-    max-width: 1526.926px;
-    width: 100%;
-}
-
-.card-box-1,
-.card-box-2{
-    display: flex;
-    flex-direction: row;
-    align-items: stretch;
-    gap: 0;
-    padding: 0;
-    border-radius: 12px;
-    background: #f7f7f7;
-    color: rgb(57, 60, 65);
-    flex: 1 1 320px;
-    box-sizing: border-box;
-    height: 248px;
-    width: 557.6px;
-    font-family: "Universal Sans Text", -apple-system, Arial, sans-serif;
-    font-size: 14px;
-    font-weight: 400;
-    line-height: 20px;
-    overflow: hidden;
-}
-
-.card-content{
-    flex: 1 1 55%;
-    padding: 24px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    gap: 12px;
-}
-
-.card-content h5{
-    margin: 0;
-    font-size: 28px;
-    font-weight: 500;
-}
-
-.card-content p{
-    margin: 0;
-    font-size: 16px;
-}
-
-.card-media{
-    flex: 1 1 45%;
-    height: 248px;
-    width: 100%;
-    display: block;
-    object-fit: cover;
-}
-
-.card-media img{
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    display: block;
-}
-
-img.card-media{
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    display: block;
-}
-
-.card-actions{
-    margin-top: 12px;
-    padding-top: 16px;
-}
-
-.card-content .card-actions button{
-    width: 252px;
-    height: 56px;
-    box-sizing: border-box;
-    color: rgb(57, 60, 65);
-    color-scheme: light;
-    display: block;
-    font-family: "Universal Sans Text", -apple-system, Arial, sans-serif;
-    font-size: 14px;
-    font-weight: 400;
-}
-
-
-section-1 h2{
-    font-size: 40px;
-    font-weight: 500;
-    height: 96px;
-    width: 671px;
-    
-}
 
